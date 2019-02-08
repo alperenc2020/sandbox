@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>ByMe</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -39,6 +39,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 </nav>
 
 <!-- Page Content -->
+
 <div class="w3-main w3-padding-large" style="margin-left:40%">
 
   <!-- Menu icon to open sidebar -->
@@ -54,6 +55,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </header>
 
   <!-- Portfolio Section -->
+  
   <div class="w3-padding-32 w3-content" id="portfolio">
     <h2 class="w3-text-grey">My Portfolio</h2>
     <hr class="w3-opacity">
@@ -72,6 +74,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Night_view_Nakanoshima_02.jpg" style="width:100%">
         <img src="http://www.atlanticfencing.com/wp-content/uploads/2013/12/fencing1203-1024x795.png" style="width:100%">
       </div>
+      
     <!-- End photo grid -->
     </div>
   <!-- End Portfolio Section -->
@@ -104,7 +107,24 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     </button>
 
 
-    
+     <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Modal</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Coming Soon!</h2>
+      </header>
+      <div class="w3-container">
+        <p>I will be improving this page with the new things that i learn...</p>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p>LAST VISIT: Friday 8, 2019</p>
+      </footer>
+    </div>
+  </div>
+</div>
   <!-- End About Section -->
   </div>
 
